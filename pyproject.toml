@@ -12,11 +12,12 @@ python = "^3.10"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
+flake8 = "^5.0.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:welcome_user"
+brain-games = "brain_games.scripts.brain_games:main"
 
