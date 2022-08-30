@@ -1,5 +1,5 @@
 #!/usr/bin python
-"""This module runs welcome_user function."""
+
 from brain_games.cli import welcome_user
 
 
