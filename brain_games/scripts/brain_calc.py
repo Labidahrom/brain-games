@@ -1,7 +1,7 @@
 #!/usr/bin python
 """This module runs welcome_user function."""
-from engine import get_username, play_engine
-from games.calc import calc_game, task_text
+from brain_games.scripts.engine import get_username, play_engine
+from brain_games.scripts.games.calc import calc_game, task_text
 
 
 def main():

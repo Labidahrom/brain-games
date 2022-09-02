@@ -20,7 +20,7 @@ def gcd_game():
         print('Correct!')
         return True
     else:
-        print(f"Question: {number1} {number2}.\n Your answer: {user_answer}\n"
+        print(f"Question: {number1} {number2}.\nYour answer: {user_answer}\n"
               f"{user_answer} is wrong answer ;(. Correct answer was {max_mul}.")
         return False
 
