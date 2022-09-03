@@ -1,9 +1,9 @@
-import random
 import prompt
 
 
 def get_username():
-    username = prompt.string('Welcome to the Brain Games!\nMay I have your name? ')
+    username = prompt.string('Welcome to the Brain Games!\n'
+                             'May I have your name? ')
     print(f"Hello, {username}!")
     return username
 

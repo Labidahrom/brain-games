@@ -1,7 +1,4 @@
-#!/usr/bin python
-"""This module runs welcome_user function."""
 import random
-import prompt
 
 
 task_text = 'Answer "yes" if given number is prime. Otherwise answer "no".'
@@ -24,13 +21,10 @@ def prime_game():
         return True
     else:
         print(f"Question: {number}\nYour answer: {user_answer}\n"
-              f"'{user_answer}' is wrong answer ;(. Correct answer was '{is_prime}'.")
+              f"'{user_answer}' is wrong answer ;(. Correct answer was "
+              f"'{is_prime}'.")
         return False
 
 
-
-
-
-
-
-
+if __name__ == "__main__":
+    prime_game()

@@ -1,5 +1,3 @@
-#!/usr/bin python
-"""This module runs welcome_user function."""
 import random
 import prompt
 
@@ -23,13 +21,10 @@ def progression_game():
         return True
     else:
         print(f"Question: {progression_string}\nYour answer: {user_answer}\n"
-              f"'{user_answer}' in wrong answer ;(. Correct answer was '{missing_item}'.")
+              f"'{user_answer}' in wrong answer ;(. Correct answer was "
+              f"'{missing_item}'.")
         return False
 
 
-
-
-
-
-
-
+if __name__ == "__main__":
+    progression_game()

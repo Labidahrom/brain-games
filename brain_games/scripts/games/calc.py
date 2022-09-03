@@ -1,10 +1,9 @@
-#!/usr/bin python
-"""This module runs welcome_user function."""
 import random
 import prompt
 
 
 task_text = "What is the result of the expression?"
+
 
 def calc_game():
     operation_type = '+-*'[random.randint(0, 2)]
@@ -24,8 +23,10 @@ def calc_game():
         print('Correct!')
         return True
     else:
-        print(f"Question: {member_1} {operation_type} {member_2}\nYour answer: {user_answer}\n"
-              f"{user_answer} is wrong answer ;(. Correct answer was {math_result}.")
+        print(f"Question: {member_1} {operation_type} {member_2}\n"
+              f"Your answer: {user_answer}\n"
+              f"{user_answer} is wrong answer ;(. Correct answer was "
+              f"{math_result}.")
         return False
 
 

@@ -1,5 +1,4 @@
-#!/usr/bin python
-"""This module runs welcome_user function."""
+#!/usr/bin/env python3
 from brain_games.scripts.engine import get_username, play_engine
 from brain_games.scripts.games.even import even_game, task_text
 

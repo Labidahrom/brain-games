@@ -1,5 +1,3 @@
-#!/usr/bin python
-"""This module runs welcome_user function."""
 import random
 import prompt
 
@@ -21,9 +19,10 @@ def gcd_game():
         return True
     else:
         print(f"Question: {number1} {number2}.\nYour answer: {user_answer}\n"
-              f"{user_answer} is wrong answer ;(. Correct answer was {max_mul}.")
+              f"{user_answer} is wrong answer ;(. Correct answer was "
+              f"{max_mul}.")
         return False
 
 
 if __name__ == "__main__":
-    calc_game()
+    gcd_game()
