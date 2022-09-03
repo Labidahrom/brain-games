@@ -6,3 +6,4 @@ Brain-even manual: https://asciinema.org/a/Tvox8mMAQKrzohaOOYyZaZdwS
 Brain-calc manual: https://asciinema.org/a/HvVQiq639MFOb6grHKwoe6wZE
 Brain-gcd manual: https://asciinema.org/a/GCGO2AzGP97hC8GpEGJOUQVNt
 Brain-progression manual: https://asciinema.org/a/GotOjTADNeImgQo7UhqVrUgCI
+Brain-prime manual: https://asciinema.org/a/hyc4qNIjMcHw77O8BTSxedsO7

@@ -1,7 +1,6 @@
 #!/usr/bin python
 """This module runs welcome_user function."""
 import random
-import prompt
 
 
 task_text = "Answer 'yes' if the number is even, otherwise answer 'no'."
