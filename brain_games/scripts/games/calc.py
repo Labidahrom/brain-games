@@ -19,7 +19,7 @@ def calc_game():
     elif operation_type == '*':
         print(f'Question: {member_1} * {member_2}')
         math_result = member_1 * member_2
-    user_answer = int(prompt.integer(('Your answer: ')))
+    user_answer = int(prompt.integer('Your answer: '))
     if user_answer == math_result:
         print('Correct!')
         return True
