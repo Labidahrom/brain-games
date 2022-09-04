@@ -17,6 +17,8 @@ This project contains several games with arithmetic questions. During the game u
 - Poetry
 
 ##Istallation
+```
 git clone https://github.com/Labidahrom/python-project-lvl1
 cd python-project-lvl1
 make package-install
+```
