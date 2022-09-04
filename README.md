@@ -12,13 +12,24 @@ This project contains several games with arithmetic questions. During the game u
 - [Brain-prime manual](https://asciinema.org/a/hyc4qNIjMcHw77O8BTSxedsO7)
 
 ## System requirements
+- Linux
 - Python (3.6 or later)
 - PIP
 - Poetry
+- GIT
 
 ## Installation
+Open your terminal and type:
 ```
 git clone https://github.com/Labidahrom/python-project-lvl1
 cd python-project-lvl1
 make package-install
+```
+After installation, all games will be available for launch from the terminal by commands:
+```
+brain-even
+brain-calc
+brain-progression
+brain-gcd
+brain-prime
 ```
