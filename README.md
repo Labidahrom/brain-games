@@ -10,6 +10,13 @@ This project contains several games with arithmetic questions. During the game u
 - [Brain-gcd manual](https://asciinema.org/a/GCGO2AzGP97hC8GpEGJOUQVNt)
 - [Brain-progression manual](https://asciinema.org/a/GotOjTADNeImgQo7UhqVrUgCI)
 - [Brain-prime manual](https://asciinema.org/a/hyc4qNIjMcHw77O8BTSxedsO7)
+
 ## System requirements
 - Python (3.6 or later)
 - PIP
+- Poetry
+
+##Istallation
+git clone https://github.com/Labidahrom/python-project-lvl1
+cd python-project-lvl1
+make package-install
