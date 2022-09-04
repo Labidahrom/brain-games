@@ -1,7 +1,7 @@
 import random
 
 
-task_text = "Answer 'yes' if the number is even, otherwise answer 'no'."
+task_text = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def even_game():

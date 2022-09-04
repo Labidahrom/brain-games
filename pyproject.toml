@@ -8,7 +8,7 @@ packages = [
 ]
 repository = "https://github.com/Labidahrom/python-project-lvl1"
 classifiers = [
-    "Topic :: Games/Entertainment"
+    "Topic :: Games/Entertainment",
     "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 
