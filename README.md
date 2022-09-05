@@ -5,12 +5,6 @@
 ## Project description
 This project contains several games with arithmetic questions. During the game user receives questions. If the user gave 3 correct answers in a row, the game ends successfully, but if at least 1 question was answered incorrectly during the game, the game ends with a loss.
 
-- [Brain-even manual](https://asciinema.org/a/Tvox8mMAQKrzohaOOYyZaZdwS)
-- [Brain-calc manual](https://asciinema.org/a/HvVQiq639MFOb6grHKwoe6wZE)
-- [Brain-gcd manual](https://asciinema.org/a/GCGO2AzGP97hC8GpEGJOUQVNt)
-- [Brain-progression manual](https://asciinema.org/a/GotOjTADNeImgQo7UhqVrUgCI)
-- [Brain-prime manual](https://asciinema.org/a/hyc4qNIjMcHw77O8BTSxedsO7)
-
 ## System requirements
 - Linux
 - Python (3.6 or later)
@@ -33,3 +27,15 @@ brain-progression
 brain-gcd
 brain-prime
 ```
+
+## How to play
+### Brain-even (Installation and gameplay)
+[![asciicast](https://asciinema.org/a/Tvox8mMAQKrzohaOOYyZaZdwS.svg)](https://asciinema.org/a/Tvox8mMAQKrzohaOOYyZaZdwS)
+### Brain-calc (Installation and gameplay)
+[![asciicast](https://asciinema.org/a/HvVQiq639MFOb6grHKwoe6wZE.svg)](https://asciinema.org/a/HvVQiq639MFOb6grHKwoe6wZE)
+### Brain-progression (Installation and gameplay)
+[![asciicast](https://asciinema.org/a/GCGO2AzGP97hC8GpEGJOUQVNt.svg)](https://asciinema.org/a/GCGO2AzGP97hC8GpEGJOUQVNt)
+### Brain-gcd (Installation and gameplay)
+[![asciicast](https://asciinema.org/a/GotOjTADNeImgQo7UhqVrUgCI.svg)](https://asciinema.org/a/GotOjTADNeImgQo7UhqVrUgCI)
+### Brain-prime (Installation and gameplay)
+[![asciicast](https://asciinema.org/a/hyc4qNIjMcHw77O8BTSxedsO7.svg)](https://asciinema.org/a/hyc4qNIjMcHw77O8BTSxedsO7)
