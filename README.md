@@ -30,12 +30,12 @@ brain-prime
 
 ## How to play
 ### Brain-even (Installation and gameplay)
-[![asciicast](https://asciinema.org/a/Tvox8mMAQKrzohaOOYyZaZdwS.svg)](https://asciinema.org/a/Tvox8mMAQKrzohaOOYyZaZdwS)
+[![asciicast](https://asciinema.org/a/NS3VNS6usvyDogHkE7HJB4SPM.svg)](https://asciinema.org/a/NS3VNS6usvyDogHkE7HJB4SPM)
 ### Brain-calc (Installation and gameplay)
-[![asciicast](https://asciinema.org/a/HvVQiq639MFOb6grHKwoe6wZE.svg)](https://asciinema.org/a/HvVQiq639MFOb6grHKwoe6wZE)
+[![asciicast](https://asciinema.org/a/I50S9Ov5ETORbqQt68tCdzD85.svg)](https://asciinema.org/a/I50S9Ov5ETORbqQt68tCdzD85)
 ### Brain-progression (Installation and gameplay)
-[![asciicast](https://asciinema.org/a/GCGO2AzGP97hC8GpEGJOUQVNt.svg)](https://asciinema.org/a/GCGO2AzGP97hC8GpEGJOUQVNt)
+[![asciicast](https://asciinema.org/a/cHI7K31WamkC1mwHIGIJdaVJd.svg)](https://asciinema.org/a/cHI7K31WamkC1mwHIGIJdaVJd)
 ### Brain-gcd (Installation and gameplay)
-[![asciicast](https://asciinema.org/a/GotOjTADNeImgQo7UhqVrUgCI.svg)](https://asciinema.org/a/GotOjTADNeImgQo7UhqVrUgCI)
+[![asciicast](https://asciinema.org/a/k71aed8Yld8XYxGb2C7vdI9V5.svg)](https://asciinema.org/a/k71aed8Yld8XYxGb2C7vdI9V5)
 ### Brain-prime (Installation and gameplay)
-[![asciicast](https://asciinema.org/a/hyc4qNIjMcHw77O8BTSxedsO7.svg)](https://asciinema.org/a/hyc4qNIjMcHw77O8BTSxedsO7)
+[![asciicast](https://asciinema.org/a/2PAlx12UFxC9EgZMMUaoqjZTT.svg)](https://asciinema.org/a/2PAlx12UFxC9EgZMMUaoqjZTT)
