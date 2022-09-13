@@ -24,4 +24,3 @@ def game():
     else:
         result = "no"
     return question, result
-

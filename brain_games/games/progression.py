@@ -5,7 +5,8 @@ task_text = "What number is missing in the progression?"
 
 
 def calculate_progression(initial_term, difference, length):
-    progression_list = [str(initial_term + (i * difference)) for i in range(length)]
+    progression_list = [str(initial_term + (i * difference))
+                        for i in range(length)]
     return progression_list
 
 
@@ -25,5 +26,3 @@ def game():
     progression_string = convert_to_str(progression_list)
     question = f"{progression_string}"
     return question, result
-
-

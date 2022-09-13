@@ -17,4 +17,3 @@ def game():
     result = find_gcd(number1, number2)
     question = f'{number1} {number2}'
     return question, result
-

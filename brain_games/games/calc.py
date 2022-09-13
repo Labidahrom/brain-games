@@ -19,4 +19,3 @@ def game():
         result = member_1 * member_2
     result = str(result)
     return question, result
-
