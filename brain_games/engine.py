@@ -4,10 +4,11 @@ import prompt
 def play_engine(game):
     username = prompt.string('Welcome to the Brain Games!\n'
                              'May I have your name? ')
+    ROUNDS_NUMBER = 3
     print(f"Hello, {username}!")
-    print(game.task_text)
-    for i in range(3):
-        question, result = game.game()
+    print(game.RULES_TEXT)
+    for i in range(ROUNDS_NUMBER):
+        question, result = game.generate_question_and_answer()
         print(f'Question: {question}')
         user_answer = input('Your answer: ')
         if user_answer == result:
@@ -18,7 +19,3 @@ def play_engine(game):
                   f"'{result}'.\nLet's try again, {username}!")
             return
     print(f"Congratulations, {username}!")
-
-
-if __name__ == "__main__":
-    play_engine()

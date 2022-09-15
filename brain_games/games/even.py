@@ -1,18 +1,17 @@
 import random
 
 
-task_text = 'Answer "yes" if the number is even, otherwise answer "no".'
+RULES_TEXT = 'Answer "yes" if the number is even, otherwise answer "no".'
+INTERVAL_START = 1
+INTERVAL_END = 1000
 
 
 def is_even(number):
-    if number % 2 == 0:
-        return True
-    else:
-        return False
+    return number % 2 == 0
 
 
-def game():
-    number = random.randint(1, 1000)
+def generate_question_and_answer():
+    number = random.randint(INTERVAL_START, INTERVAL_END)
     question = f'{number}'
     if is_even(number):
         result = "yes"

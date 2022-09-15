@@ -1,7 +1,9 @@
 import random
 
 
-task_text = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULES_TEXT = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+INTERVAL_START = 1
+INTERVAL_END = 100
 
 
 def is_prime(number):
@@ -16,8 +18,8 @@ def is_prime(number):
         return True
 
 
-def game():
-    number = random.randint(1, 100)
+def generate_question_and_answer():
+    number = random.randint(INTERVAL_START, INTERVAL_END)
     question = f'{number}'
     if is_prime(number):
         result = "yes"
