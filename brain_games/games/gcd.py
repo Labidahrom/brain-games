@@ -7,11 +7,11 @@ INTERVAL_END = 100
 
 
 def find_gcd(number1, number2):
-    if number1 == number2:
+    if min(number1, number2) == 0:
         return number1
     else:
         return find_gcd(min(number1, number2),
-                        max(number1, number2) - min(number1, number2))
+                        max(number1, number2) % min(number1, number2))
 
 
 def generate_question_and_answer():

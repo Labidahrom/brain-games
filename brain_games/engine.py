@@ -1,10 +1,12 @@
 import prompt
 
 
-def play_engine(game):
-    username = prompt.string('Welcome to the Brain Games!\n'
-                             'May I have your name? ')
-    ROUNDS_NUMBER = 3
+ROUNDS_NUMBER = 3
+WELCOME_MESSAGE = 'Welcome to the Brain Games!\nMay I have your name? '
+
+
+def run_game(game):
+    username = prompt.string(WELCOME_MESSAGE)
     print(f"Hello, {username}!")
     print(game.RULES_TEXT)
     for i in range(ROUNDS_NUMBER):
@@ -14,8 +16,7 @@ def play_engine(game):
         if user_answer == result:
             print('Correct!')
         else:
-            print(f'Question: {question}\nYour answer: {user_answer}\n'
-                  f"'{user_answer}' is wrong answer ;(. Correct answer was "
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was "
                   f"'{result}'.\nLet's try again, {username}!")
             return
     print(f"Congratulations, {username}!")

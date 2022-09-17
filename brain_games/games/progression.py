@@ -26,11 +26,9 @@ def get_missing_item(progression, index):
 
 
 def convert_to_str(progression, index_to_replace):
-    progression_string = ''
     progression[index_to_replace] = '..'
-    for i in progression:
-        progression_string = progression_string + str(i) + ' '
-    output = progression_string.strip()
+    progression = [str(i) for i in progression]
+    output = ' '.join(progression)
     return output
 
 
@@ -41,5 +39,5 @@ def generate_question_and_answer():
     progression = generate_progression(initial_term, difference, length)
     index_to_replace = generate_missing_item_index(len(progression))
     result = get_missing_item(progression, index_to_replace)
-    question = f"{convert_to_str(progression, index_to_replace)}"
+    question = convert_to_str(progression, index_to_replace)
     return question, result
